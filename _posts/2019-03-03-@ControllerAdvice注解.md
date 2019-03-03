@@ -189,7 +189,7 @@ public class UserService {
 
 }
 ```
-```
+```mermaid
 graph TD
 A[请求/login/doLogin] -->B{检查参数是否抛出BindException}
     B --> |是|C[GlobalExceptionHandler拦截异常]
